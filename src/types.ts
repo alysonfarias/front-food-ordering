@@ -2,7 +2,7 @@ export type User = {
   _id: string;
   email: string;
   name: string;
-  addressLine: string;
+  addressLine1: string;
   city: string;
   country: string;
 };
@@ -10,7 +10,7 @@ export type User = {
 export type MenuItem = {
   _id: string;
   name: string;
-  price: string;
+  price: number;
 };
 
 export type Restaurant = {
@@ -39,9 +39,9 @@ export type Order = {
   restaurant: Restaurant;
   user: User;
   cartItems: {
-    menuItem: string;
+    menuItemId: string;
     name: string;
-    quantity: number;
+    quantity: string;
   }[];
   deliveryDetails: {
     name: string;
