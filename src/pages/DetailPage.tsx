@@ -1,6 +1,6 @@
 import { useGetRestaurant } from "@/api/RestaurantApi";
 import MenuItem from "@/components/MenuItem";
-import OrderSummary from "@/components/";
+import OrderSummary from "@/components/OrderSummary";
 import RestaurantInfo from "@/components/RestaurantInfo";
 import { AspectRatio } from "@/components/ui/AspectRatio";
 import { Card, CardFooter } from "@/components/ui/Card";
