@@ -29,3 +29,5 @@ const CuisineCheckbox = ({ cuisine, field }: Props) => {
     </FormItem>
   );
 };
+
+export default CuisineCheckbox;
