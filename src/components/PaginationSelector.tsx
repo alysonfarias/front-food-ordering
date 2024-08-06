@@ -52,3 +52,5 @@ const PaginationSelector = ({ page, pages, onPageChange }: Props) => {
     </Pagination>
   );
 };
+
+export default PaginationSelector;
