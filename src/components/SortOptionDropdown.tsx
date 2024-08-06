@@ -1,10 +1,10 @@
-import { Button } from "./ui/button";
+import { Button } from "./ui/Button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "./ui/dropdown-menu";
+} from "./ui/Dropdown-menu";
 
 type Props = {
   onChange: (value: string) => void;

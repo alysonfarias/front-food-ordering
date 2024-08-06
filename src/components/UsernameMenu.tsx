@@ -4,11 +4,11 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "./ui/dropdown-menu";
+} from "./ui/Dropdown-menu";
 import { useAuth0 } from "@auth0/auth0-react";
 import { Link } from "react-router-dom";
-import { Separator } from "./ui/separator";
-import { Button } from "./ui/button";
+import { Separator } from "./ui/Separator";
+import { Button } from "./ui/Button";
 
 const UsernameMenu = () => {
   const { user, logout } = useAuth0();
