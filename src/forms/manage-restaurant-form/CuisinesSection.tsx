@@ -36,3 +36,5 @@ const CuisinesSection = () => {
     </div>
   );
 };
+
+export default CuisinesSection;
