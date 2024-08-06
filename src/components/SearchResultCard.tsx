@@ -47,3 +47,5 @@ const SearchResultCard = ({ restaurant }: Props) => {
     </Link>
   );
 };
+
+export default SearchResultCard;
