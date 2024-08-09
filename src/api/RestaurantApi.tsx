@@ -44,7 +44,7 @@ export const useSearchRestaurants = (
     );
 
     if (!response.ok) {
-      throw new Error("Failed to get restarant");
+      throw new Error("Failed to get restaurant");
     }
 
     return response.json();
