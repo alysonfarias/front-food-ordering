@@ -3,7 +3,7 @@ import {
   FormField,
   FormItem,
   FormMessage,
-} from "@/components/ui/Form";
+} from "@/components/ui/dorm";
 import { cuisineList } from "@/config/restaurant-options-config";
 import { useFormContext } from "react-hook-form";
 import CuisineCheckbox from "./CuisineCheckbox";

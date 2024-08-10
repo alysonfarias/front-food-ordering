@@ -1,12 +1,12 @@
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/button";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/Form";
-import { Input } from "@/components/ui/Input";
+} from "@/components/ui/dorm";
+import { Input } from "@/components/ui/input";
 import { useFormContext } from "react-hook-form";
 
 type Props = {

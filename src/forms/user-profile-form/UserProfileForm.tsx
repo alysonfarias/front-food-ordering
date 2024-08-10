@@ -9,10 +9,10 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/Form";
-import { Input } from "@/components/ui/Input";
+} from "@/components/ui/dorm";
+import { Input } from "@/components/ui/input";
 import LoadingButton from "@/components/LoadingButton";
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/button";
 import { User } from "@/types";
 import { useEffect } from "react";
 

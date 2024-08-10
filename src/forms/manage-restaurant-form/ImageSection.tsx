@@ -5,8 +5,8 @@ import {
   FormField,
   FormItem,
   FormMessage,
-} from "@/components/ui/Form";
-import { Input } from "@/components/ui/Input";
+} from "@/components/ui/dorm";
+import { Input } from "@/components/ui/input";
 import { useFormContext } from "react-hook-form";
 
 const ImageSection = () => {
