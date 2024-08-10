@@ -27,7 +27,7 @@ const formSchema = z
       required_error: "delivery price is required",
       invalid_type_error: "must be a valid number",
     }),
-    estimatedDeliveryTime: z.coerce.number({
+    estimateDeliveryTime: z.coerce.number({
       required_error: "estimated delivery time is required",
       invalid_type_error: "must be a valid number",
     }),
@@ -101,8 +101,8 @@ const ManageRestaurantForm = ({ onSave, isLoading, restaurant }: Props) => {
       (formDataJson.deliveryPrice * 100).toString()
     );
     formData.append(
-      "estimatedDeliveryTime",
-      formDataJson.estimatedDeliveryTime.toString()
+      "estimateDeliveryTime",
+      formDataJson.estimateDeliveryTime.toString()
     );
     formDataJson.cuisines.forEach((cuisine, index) => {
       formData.append(`cuisines[${index}]`, cuisine);
