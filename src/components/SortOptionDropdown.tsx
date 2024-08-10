@@ -22,7 +22,7 @@ const SORT_OPTIONS = [
   },
   {
     label: "Estimate delivery time",
-    value: "estimateDeliveryTime",
+    value: "estimatedDeliveryTime",
   },
 ];
 
