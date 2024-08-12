@@ -1,10 +1,10 @@
-import { Button } from "src/components/ui/button";
+import { Button } from "./ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "src/components/ui/dropdown-menu";
+} from "./ui/dropdown-menu";
 
 type Props = {
   onChange: (value: string) => void;
@@ -21,7 +21,7 @@ const SORT_OPTIONS = [
     value: "deliveryPrice",
   },
   {
-    label: "Estimate delivery time",
+    label: "Estimated delivery time",
     value: "estimatedDeliveryTime",
   },
 ];

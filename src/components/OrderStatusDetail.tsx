@@ -1,5 +1,5 @@
 import { Order } from "@/types";
-import { Separator } from "src/components/ui/separator";
+import { Separator } from "./ui/separator";
 
 type Props = {
   order: Order;

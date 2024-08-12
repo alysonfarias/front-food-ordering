@@ -5,7 +5,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "src/components/ui/card";
+} from "./ui/card";
 import { Dot } from "lucide-react";
 
 type Props = {
