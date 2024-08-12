@@ -32,7 +32,7 @@ const CuisinesSection = () => {
             <FormMessage />
           </FormItem>
         )}
-      ></FormField>
+      />
     </div>
   );
 };
